@@ -1,0 +1,231 @@
+*{
+    margin:0px;
+    padding:0;
+}
+
+body{
+    width: 100%;
+}
+header{
+    background-color: rgb(240, 149, 110);
+    width: 100%;
+   
+  
+}
+.navbar{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    
+}
+h1{
+    color:rgb(194, 147, 147);
+    font-family: 'WindSong', cursive;
+    font-size: 50px;
+    margin-left: 35%;
+    margin-top:5%;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+}
+.contenedor_fotos{
+    width: 100%;
+    background-color: rgb(250, 245, 199);
+    padding: 2%;
+    
+    
+}
+.contenedor_fotos a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.contenedor_todo div{
+    width: 100%;
+    display: flex;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.texto_foto{
+    margin-top: 3%;
+    font-size: 25px;
+    margin-left:20px;
+    padding: 100px;
+    font-family: 'Dosis', sans-serif;
+   
+    
+   
+
+}
+.pic{
+    border-radius: 2%;
+    width: 30%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+  
+    
+   
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+}
+footer{
+   
+    background-color: rgb(228, 124, 124,0.3);
+    width: 100%;
+    height: auto;
+    bottom:0;
+    font-family: 'Dosis', sans-serif;
+   
+
+}
+
+
+.contacto{
+   font-size: 20px;
+   justify-content: center;
+   align-items: center;
+   margin:30px;
+}
+
+.contenedor_contacto{
+    display: flex;
+    align-items: center;
+    margin:10px 0 0 0px;
+    
+    
+    
+}
+footer div p{
+    
+    justify-content: center;
+    font-size: 15px;
+}
+
+
+.contenedor_logos{
+    display: flex;
+    align-items: center;
+   
+
+}
+.contenedor_logos img{
+    width: 20px;
+    margin: 10px;
+}
+
+.derechos_footer{
+    bottom: 0;
+    display:flex;
+    justify-content:center;
+    margin-left: 45px;
+    
+}
+
+.lista_menu a{
+    margin:10px;
+    display: flex;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-block;
+    margin:40px;
+    text-align: center;
+    
+    
+}
+.card img{
+    width: 95%;
+    padding: 20px;
+    margin-left: 10px;
+}
+#stock{
+    background-color: rgb(60, 126, 211);
+    color:white;
+    margin:40px;
+    margin-left: 40%;
+}
+#stock.no{
+    background-color: lavender;
+    font-size: 5px;
+    padding: 30px;
+    margin-left: 25%;
+}
+#info{
+    width: 70%;
+    padding: 10px;
+    
+    border-radius: 10%;
+    margin-left: 20%;
+}
+
+.lista ul{
+    
+    list-style: none;
+    font-size: 30px;
+    float: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 32%;
+}
+.lista ul li{
+    margin:30px;
+    
+}
+#covid{
+    font-family: 'Dosis', sans-serif;
+    color:red;
+    text-decoration:underline;
+    padding: 5%;
+    text-align: center;
+  
+}
+
+@media(max-width: 767px){
+    footer{
+      width: 100%;
+      height: 100%;
+      bottom:0;
+  }
+  .contenedor_general{
+    width: 100%;
+}
+  }
+  .contenedor_contacto{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+.contenedor_logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+
+}
+.lista_menu{
+    justify-content: center;
+    margin:50px 0px 40px 70px;
+    
+}
+.contenedorP{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin:20px;
+}
+.contenedorP p{
+    margin:10px;
+}
