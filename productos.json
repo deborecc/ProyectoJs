@@ -1,0 +1,45 @@
+[
+    {
+    "nombre":"Tarta",
+    "precio":500,
+    "id":1,
+    "thumbnailUrl": "https://i.ibb.co/9bSM13W/platocopia1.jpg"
+    
+    
+    },
+    {
+    "nombre":"Canastita",
+    "precio":70,
+    "id":2,
+    "thumbnailUrl": "https://i.ibb.co/vDMnBZ0/plato-3.jpg"
+    
+    },
+    {
+    "nombre":"Media docena",
+    "precio":300,
+    "id":3,
+    "thumbnailUrl": "https://i.ibb.co/ZS7vtQr/plato22.jpg"
+            
+    },
+    {
+     "nombre":"Pizza",
+     "precio":150,
+     "id":4,
+     "thumbnailUrl": "https://i.ibb.co/r6kwJRs/plato4.jpg"
+                
+    },
+    {
+    "nombre":"Una docena",
+    "precio":500,
+    "id":5,
+    "thumbnailUrl": "https://i.ibb.co/ZS7vtQr/plato22.jpg"
+    },
+    {
+    "nombre":"Porción de tarta",
+    "precio":70,
+    "id":6,
+    "thumbnailUrl": "https://i.ibb.co/QczLynw/plato5.jpg"
+    
+        
+        }
+]
